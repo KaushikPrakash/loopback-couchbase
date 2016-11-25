@@ -1,0 +1,46 @@
+{
+  "mysqlDs": {
+    "host": "localhost",
+    "port": 3306,
+    "url": "",
+    "database": "coffee",
+    "password": "",
+    "name": "mysqlDs",
+    "user": "root",
+    "connector": "mysql"
+  },
+  "couchbaseTestBucket": {
+    "name": "couchbaseTestBucket",
+    "connector": "couchbase3",
+    "host": "localhost",
+    "user":"admin",
+    "password":"mcc@1234",
+    "cluster": {
+      "url": "couchbase://localhost",
+      "options": {}
+    },
+    "bucket": {
+      "name": "test",
+      "password": ""
+    }
+  },
+  "couchbaseTestBucketView": {
+    "name": "couchbaseTestBucketView",
+    "connector": "couchbase3",
+    "host": "couchbase://localhost:8092/default/",
+    "user":"admin",
+    "password":"mcc@1234",
+    "views": {
+      "_id": "_design/dev_%2Fview/_view/vinoth",
+      "views": {
+      "view1": {
+      "map": "function(doc, meta) { if (doc.value) { emit(doc.value, meta.id);} }"
+      }
+      },
+      "options": {
+      "updateMinChanges": 1000,
+      "replicaUpdateMinChanges": 20000
+      } 	
+    }
+  }
+}

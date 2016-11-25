@@ -1,0 +1,263 @@
+  h5 , h4{
+      font-family: 'Open Sans', sans-serif !important;
+  }
+  .row {
+      background: white;
+      font-family: 'Open Sans', sans-serif !important;
+    }
+  .new_text2 {
+    width: 100%;
+    font-size: 23px;
+    color:white !important;
+    z-index: 100001;
+    margin-top: 30px;
+  /*  font-family: sans;*/
+    text-align: center;
+    text-shadow: 1px 1px #ffffff;
+    /*position: absolute;
+    left: 5%;
+    top: 20px;*/
+  }
+ .img_div {
+    width: 100%;
+    height:100%;
+    position: relative;
+    cursor: pointer;
+    position: absolute;
+  }
+  .new_border1 {
+    background: rgba(0,0,0,0.2) !important;
+    position: absolute;
+    z-index: 1;
+    bottom: 1px;
+    top: 1px;
+    padding: 0px;
+    cursor: pointer;
+  }
+    
+    .new_text {
+      color: white;
+      font-size: 20px;
+      text-shadow: 1px 1px #ffffff;
+    }
+    .new_text_lesson {
+      color: #212121;
+      font-size: 20px;
+    }
+    .admin_style {
+        text-align: left;
+        font-size: 28px;
+        padding-left: 4%;
+        color: #212121;
+    }
+    .canvasjs-chart-canvas {
+      /*width: 695px !important;*/
+      height: 300px !important;
+      position: relative !important;
+    }
+    .canvasjs-chart-credit {
+      display: none;
+    }
+    .canvasjs-chart-tooltip {
+        position: absolute;
+        height: auto;
+        box-shadow: rgba(0, 0, 0, 0.0980392) 1px 1px 2px 2px;
+        z-index: 1000;
+        display: none;
+        border-radius: 5px;
+        left: 242px;
+        bottom: -275px;
+        transition: left 0.2s ease-out, bottom 0.2s ease-out;
+    }
+    .box_shadow_chart {
+            padding: 0px;
+    box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.14), 0px 3px 1px -2px rgba(0, 0, 0, 0.2), 0px 1px 5px 0px rgba(0, 0, 0, 0.12);
+    }
+    .lesson_border {
+      border-bottom: 1px solid grey;
+      border-top: 1px solid grey;
+    }
+    .box_shadow_col_sm-12 {
+            box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.14), 0px 3px 1px -2px rgba(0, 0, 0, 0.2), 0px 1px 5px 0px rgba(0, 0, 0, 0.12);text-align: center;
+            margin-bottom: 4%;
+    }
+     .box_shadow_col_sm-12_2 {
+            box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.14), 0px 3px 1px -2px rgba(0, 0, 0, 0.2), 0px 1px 5px 0px rgba(0, 0, 0, 0.12);text-align: center;
+            cursor: pointer;
+            margin-bottom: 5%;
+    }
+         .box_shadow_col_sm-12_3 {
+           box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.14), 0px 3px 1px -2px rgba(0, 0, 0, 0.2), 0px 1px 5px 0px rgba(0, 0, 0, 0.12);
+            text-align: center;
+            padding: 0px;
+            margin-bottom: 5%;
+    }
+    .box_shadow_col_sm-12_3_index {
+       
+        text-align: center;
+        padding: 3% 19%;
+        margin-bottom: 5%;
+    }
+    .new_card_class {   
+        height: 100%;cursor: pointer;
+    }   
+    .new_card_class2
+     {   
+        height: 100%;
+    }  
+    .clear_border {
+    border: 0px;
+    text-decoration: none !important;
+  }
+  .new_card_full {
+      height: 250px;
+      padding: 0px;
+      box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.14), 0px 3px 1px -2px rgba(0, 0, 0, 0.2), 0px 1px 5px 0px rgba(0, 0, 0, 0.12);
+      margin: 4%;
+      text-align: center;
+      font-size: 20px;
+  }
+  .padding-top {
+    padding-top: 100px;
+  }
+  .new_card_heading {
+      height: 30%;
+      z-index: 100001;
+      letter-spacing: 0.5px;
+      padding: 25px;
+      width: 100% !important;
+      left: 0px;
+      position: relative;
+    }
+    .new_card_percentage {
+        height: 50%;
+        text-align: center;
+        width: 100%;
+        font-size: 60px;
+        padding-top: 75px;
+        position: absolute;
+        z-index: 10000000001;
+        color: white;
+        text-shadow: 1px 1px #ffffff;
+        overflow: hidden;
+    }
+    .new_card_percentage2 {
+      height: 50%;
+      text-align: center;
+      width: 100%;
+      font-size: 60px;
+      padding-top: 50px;
+      position: relative;
+      z-index: 10000000001;
+      color: white;
+      text-shadow: 1px 1px #ffffff;
+      overflow: hidden;
+    }
+    .new_card_progress {
+      height: 20%;
+      vertical-align: middle;
+    }
+ .mdl-layout__drawer-button {
+    color:grey;
+   }
+  #chart_div svg > g > g > g > g rect {
+    cursor:pointer;
+  }
+  #chart_div2 svg > g > g > g > g rect {
+    cursor:pointer;
+  }
+ .user_program_container {
+    display: none;
+  }
+
+  .mdTable {
+    border: 0px solid rgba(0, 0, 0, .12) !important;
+  }
+  #b_line{
+    width: 102%;float:left;margin: 0% -1%;border-bottom: 1px solid lightgrey;
+  }
+  .user_program_container{
+    display: block;
+    margin-bottom: 6%;
+  }
+  #table1{
+    width:100%;border:none !important;
+  }
+  #tr1{
+    padding-left: 0%;
+  }
+  .b_line2{
+    width: 102%;float:left;margin: 0% -1%;border-bottom: 1px solid lightgrey;padding:2%;
+  }
+ 
+  .h6_1{
+    padding-left: 0.2%; font-size:large;
+  }
+  .mdl-data-table__cell--non-numeric {
+      font-size: 14px;
+      padding:3%;
+    }
+     .fa-check {
+      font-size: initial; float: right; padding-left: 5%;
+    }
+   /* .foott {
+        height: 50px;
+        bottom: 0px;
+        left: 0px;
+        right: 0px;
+        margin-bottom: 0px;
+    }*/
+  @media(max-width:415px) {
+    .container {
+      width:100%;
+      padding:0px;
+      margin:0px;  
+    }
+ 
+    .user_program_container {
+      display:block;
+      width: 100%;
+      position: relative;
+      margin-bottom: 0%;
+    }
+    .row {
+      width: 100%;
+      position: relative;
+      margin: 0px;
+    }
+    tbody {
+      width: 100%;
+    }
+    .mdl-data-table {
+      white-space: normal;
+    }
+    .col-md-12 {
+      padding-right: 15px;
+      padding-left: 15px;
+    }
+    table {
+      font-size: 10px;
+    }
+    table > thead > tr > th {
+      font-size: larger;
+      padding:3%;
+    }
+     table > tbody > tr > th {
+      font-size: larger;
+      padding:3%;
+    }
+    .fa-check {
+       font-size: initial; float: right; padding-left: 5%;
+    }
+    .mdl-data-table__cell--non-numeric {
+      font-size: 14px;
+      padding:2%;
+
+    }
+    #blackslash {
+      padding:4%;
+    }
+    h4 {
+      font-size: 18px;
+    }
+  }

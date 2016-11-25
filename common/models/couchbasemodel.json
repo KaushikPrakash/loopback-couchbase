@@ -1,0 +1,25 @@
+{
+  "name": "couchbasemodel",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "id": {
+      "type": "String",
+      "id": true,
+      "required": true,
+      "index": true     
+    },
+    "name": {
+      "type": "string",
+      "required": true,
+      "default": "null"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

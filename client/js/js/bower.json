@@ -1,0 +1,10 @@
+{
+  "name": "angular-resource",
+  "version": "1.5.9-build.4970+sha.1660ddd",
+  "license": "MIT",
+  "main": "./angular-resource.js",
+  "ignore": [],
+  "dependencies": {
+    "angular": "1.5.9-build.4970+sha.1660ddd"
+  }
+}

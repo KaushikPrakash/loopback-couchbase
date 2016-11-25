@@ -1,0 +1,221 @@
+.new_padding_icon {
+    text-align: left;
+    padding: 0px;
+    font-size: 14px;
+    width: 30%;
+    float: left;
+    position: relative;
+}
+.new_padding_words {
+    padding: 10px;
+    font-size: 10px;
+    /* width: 47%; */
+    width: 70%;
+    position: relative;
+    float: left;
+    text-align: end;
+}                                   
+
+footer {
+  
+    left: 0px;
+    bottom: 0px;
+    width: 100%;
+    z-index: 1000;
+    padding-top: 0.5%;
+    background: white;
+    color: #ffffff;
+    text-align: center;
+    padding-left: 30px !important;
+    border-top: 1px solid rgba(0,0,0,0.1);
+    min-height: 1000px;
+    position: fixed !important;
+}
+
+.mar {
+    margin-left: 0%;
+    margin-right: 0%;
+
+}
+
+.list-inline {
+    /* margin-left: 60px; */
+    font-size: 20px !important;
+    /* text-align: right; */
+    margin-right: 28%;
+    }
+
+/*.footer-padding  {
+    padding:10px;
+    font-size: 14px;
+  } */
+   .col-sm-12 {
+        width: 100%;
+    }
+/*    .col-md-4 {
+        padding: 0px;
+        font-size: 14px;
+        width: 30%;
+        float: left;
+      
+        position: relative;
+    }
+    .col-md-6 {
+        padding: 10px;
+        font-size: 10px;
+        /* width: 47%; */
+     /*   width: 70%;
+        position: relative;
+        float: left;
+        text-align: center;
+    
+    }*/
+   ul > li > a{
+    color: cornflowerblue !important; font-size: 20px !important;padding-top:10px;
+   }
+
+    .spa {
+        font-size: 15px;
+        color: #808080;
+        padding-top: 10px;
+        margin-left: 0%;
+    }
+    .list-inline > li {
+        display: inline-block;
+        padding-right: 5px;
+        padding-left: 0px;
+    }
+@media screen and (max-width: 959px) and (min-width: 641px){
+      .mar {
+        margin-left: 0%;
+        margin-right: 0%;
+    }
+     .col-md-4 {
+        padding: 0px;
+        padding-left: 6%;
+        font-size: 14px;
+        width: 50%;
+        position: relative;
+        float: left;
+    }
+    .col-md-6 {
+        padding: 10px;
+        font-size: 14px;
+        width: 50%;
+        position: relative;
+        float: left;
+        text-align: left;
+    }
+   /* .row {
+        margin-right: -15px;
+        margin-left: -15px;
+        width: 100%;
+    }*/
+     .col-sm-12 {
+        width: 100%;
+    }
+    footer {
+        min-height: 900px;
+    }
+    .list-inline {
+        margin-left: 0px;
+        float:inherit;
+    }
+    /*.spa {
+        font-size: 20px;color: grey;padding-top:10px;float:left;margin-left: -9%;margin-top: -3%;
+    }
+}*/
+}
+@media screen and (max-width: 640px) and (min-width: 321px){
+    .mar {
+        margin-left: 0%;
+        margin-right: 0%;
+    }
+    .col-md-4 {
+        padding: 0px;
+        text-align: center;
+        font-size: 14px;
+        width: 100%;
+        position: relative;
+        float: left;
+    }
+    .col-md-6 {
+        padding: 10px;
+        text-align: center;
+        font-size: 14px;
+        width: 100%;
+        position: relative;
+        float: left;
+    }
+     .col-sm-12 {
+        width: 100%;
+    }
+    footer {
+        min-height: 900px;
+    }
+    .list-inline {
+        margin-left: 0px;
+        float: inherit;
+        width: 100%;
+    }
+    .row {
+        margin-right: 0px;
+        margin-left: 0px;
+    }
+    .spa {
+        font-size: 14px;color: grey;padding-top:10px;    margin-right: 0px;
+    }
+}
+
+
+@media (max-width: 320px){
+      .mar {
+        margin-left: 0%;
+        margin-right: 0%;
+    }
+    .col-md-4 {
+        padding: 0px;
+        text-align: center;
+        font-size: 14px;
+        width: 100%;
+        position: relative;
+        float: left;
+    }
+    .col-md-6 {
+        padding: 10px;
+        font-size: 14px;
+        text-align: center;
+        width: 100%;
+        position: relative;
+        float: left;
+    }
+    .list-inline {
+        margin-left: 0px;
+        float:inherit;
+        width: 100%;
+    }
+    footer {
+        min-height: 900px;
+    }
+    .spa {
+        font-size: 14px;color: grey;padding-top:0px;
+    }
+    .fa-facebook {
+        font-size: 0.7em;
+    }
+    .fa-twitter {
+        font-size: 0.7em;
+    }
+    .fa-linkedin {
+        font-size: 0.7em;
+    }
+    .col-sm-12 {
+    width: 100%;
+    padding-right: 0px;
+    padding-left: 0px;
+    }
+    .mdl-layout__drawer.is-visible {
+        width: 160px;
+    }
+}
+

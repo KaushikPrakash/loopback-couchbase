@@ -1,0 +1,120 @@
+    .new_logo_padding {
+      padding-right: 5px;
+    }
+    /*header .mdl-layout__drawer {
+      position: fixed !important;
+      
+    }*/
+     header .mdl-layout__drawer-button {
+      padding-left: 22px;
+     }
+    header .mdl-layout__drawer-button  .material-icons {
+      color: grey;
+    }
+    header .mdl-layout__header-row {
+      padding-top:6px;
+    }  
+    header > span {
+      margin-left: 0%;
+    }
+   /* header .mdl-layout__drawer.is-visible {
+        transform: translateX(0px);
+        position: fixed !important;
+    }*/
+    .humburger {
+      position: fixed !important;
+      z-index: 2147483647;
+    }
+    .foott {
+      /*width: 100%;
+      float: left;
+      position: absolute;
+      bottom: 0px;*/
+    }
+    .mdl-layout__container {
+      position: relative;
+      width: 100%;
+      height: 100%;
+    }
+
+    .fa-2x {
+      float: left;
+    }
+    .icon_css {
+      float: left; text-align: end; margin: 2% 0% 0% 10%;
+    }
+    .h6_css {
+      margin-top: 0px; margin-bottom: -3px;
+      margin: 0px;
+      font-size: 12px;
+    }
+    .h6_css1 {
+      margin-top: 0px; margin-bottom: -3px;
+      margin: 0px;
+      font-size: 12px;margin-left: 12%;
+    }
+    .main_container {
+       min-height: 900px;
+     }
+    img {
+      width: 43px;
+    }
+    
+
+@media screen and (max-width: 959px) and (min-width: 641px) {
+  header .mdl-layout__header-row {
+      margin-left: 8%;
+     }
+}
+
+@media screen and (max-width: 640px) and (min-width: 321px) {
+  header .mdl-layout__header-row {
+      margin-left: 17%;
+     }
+}
+
+@media screen and (max-width: 320px) {
+  header .mdl-layout__header-row {
+      margin-left: 17% !fixed;
+     }
+       header > span {
+     font-size: 15px; margin-left: 0%;
+    }
+}
+
+@font-face {
+  font-family: 'Material Icons';
+  font-style: normal;
+  font-weight: 400;
+  src: url(../fonts/materialdesignicons-webfont.eot); /* For IE6-8 */
+    src: url(../fonts/materialdesignicons-webfont.svg);
+  src: local('Material Icons'),
+       local('MaterialIcons-Regular'),
+       url(../fonts/materialdesignicons-webfont.woff2) format('woff2'),
+       url(../fonts/materialdesignicons-webfont.woff) format('woff'),
+       url(../fonts/materialdesignicons-webfont.ttf) format('truetype');
+}
+.material-icons {
+  font-family: 'Material Icons';
+  font-weight: normal;
+  font-style: normal;
+  font-size: 24px;  /* Preferred icon size */
+  display: inline-block;
+  line-height: 1;
+  text-transform: none;
+  letter-spacing: normal;
+  word-wrap: normal;
+  white-space: nowrap;
+  direction: ltr;
+  text-rendering: optimizeLegibility;
+  /* Support for all WebKit browsers. */
+  -webkit-font-smoothing: antialiased;
+  /* Support for Safari and Chrome. */
+  text-rendering: optimizeLegibility;
+
+  /* Support for Firefox. */
+  -moz-osx-font-smoothing: grayscale;
+
+  /* Support for IE. */
+  font-feature-settings: 'liga';
+}

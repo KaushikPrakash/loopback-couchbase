@@ -1,0 +1,31 @@
+steps :
+
+Running steps:
+
+1. cd /opt/lampp/htdocs/lb/loopback-getting-started
+2. node .
+
+
+changes way -> 
+1. model-config.json
+2. models
+3. datasouces
+4. server page
+
+2. couchbase get api : filter is only working for single information or o/p. but not working multiple information or o/p.
+
+3. cbq worked
+
+4. finally worked:
+
+https://docs.strongloop.com/display/public/LB/Creating%2C+updating%2C+and+deleting+data
+
+https://docs.strongloop.com/display/public/LB/Where+filter
+
+http://localhost:3000/explorer/#!/couchbasemodel/couchbasemodel_find
+
+http://192.168.244.174:3000/api/couchbasemodels?filter={ "where" : {"id" : "user::vinoth"} }
+
+pendings: 
+1. connecting views and N1Ql using couchbase.
+
